@@ -1,0 +1,66 @@
+body
+{
+   background-image:url('bud1.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+hr
+{
+    width:300px;
+}
+.btn
+{
+  
+    background-image: url('black.jpg');
+    color:rgba(153, 151, 151, 0.678);
+    width:280px;
+}
+.btn:hover
+{
+    background-image: url('white.jpg');
+    color:black;
+}
+input[type="text"],input[type="password"]
+{
+   
+        width:88%;
+        border:0px;
+        font-size:large;
+        height:40px;
+}
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1
+ {
+    font-weight: 1000;
+    text-decoration: underline;
+    color:rgb(255, 174, 0);
+    font-family: "Sofia", sans-serif;
+    letter-spacing: 2px;
+  }
+.alert
+{
+         width:30%;
+         text-align:center;
+         margin-left:35%;
+}
+
+.form1
+{
+   background-color: white;
+   border-radius: 20px;
+   z-index: 2;
+   width:30%;
+   margin-left: 60%;
+   margin-top: 3%;
+   padding-top:3%;
+   padding-bottom: 2%;
+}
+#show
+{
+    width:1px !important;
+}
+
+  

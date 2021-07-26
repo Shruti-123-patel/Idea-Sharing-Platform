@@ -1,0 +1,46 @@
+.strip
+{
+    font-family: 'Alef';
+    box-sizing: border-box;
+    box-shadow:inset 0px 0px 3px rgba(50, 50, 50, 0.75);
+    background-color:rgba(128, 128, 128, 0.705);
+    color:black;
+    border-radius: 10px;
+    margin-top:0.5%;
+    padding:1.5%;
+    font-size:x-large;
+    text-align: center;
+    width:45%;
+    
+    font-weight: bolder;
+    margin-left:1%;
+}
+
+body
+{
+    background-color: white;
+    background-image: url('gif_b.gif');
+    background-position: 97% 89%;
+    background-size: 51%;
+    
+    background-repeat: no-repeat;
+   
+}
+.strip:hover
+{
+  background:white;
+  box-shadow:inset 2px 2px 5px rgba(50, 50, 50, 0.75);
+  cursor:pointer;
+}
+#a1 , #a1:visited
+{
+    text-decoration: none;
+    text-decoration-color:none ;
+    color:black;
+    letter-spacing: 2px;
+   
+}
+#a1:hover
+{
+    text-decoration:underline;
+}

@@ -1,0 +1,202 @@
+header
+{
+  display:flex;
+  flex-direction:row;
+  color:red;
+  font-size:x-large;
+  /* margin-top:1%;
+  margin-bottom:1%; */
+
+
+}
+.hamburger
+{
+    color:red;
+    margin-left: 2%;
+}
+#w
+{
+    width:100%;
+}
+.idea 
+{
+  font-size: 40px;
+  margin-left:34%;
+  /* letter-spacing: 2px; */
+  font-family:"Sofia";
+  color:red;
+  font-weight:bolder;
+}
+nav
+{
+  font-family: 'Advent Pro';
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-size: large;
+  margin-top: 1%;
+}
+hr
+{
+    background-color: black;
+    height:0.1px;
+    margin-top: 0.5%;
+}
+@media only screen and (min-width:1026px)
+{
+    #a , #a:visited
+    {
+       margin-left:14%;
+    }
+    #ins
+{
+    width:48.5%;
+    margin-right: 1.5%;
+    /* margin-left:1.5%; */
+}
+#pra
+{
+    width:48.5%;
+    margin-left: 1.5%;
+    /* margin-right: 1.5%; */
+}
+}
+#a , #a:visited
+{
+    text-decoration: none;
+    text-decoration-color:none ;
+    font-weight: bolder;
+    color:black;
+}
+#a:hover
+{
+    text-decoration:underline;
+}
+.quote
+{
+   background-image: url('quote.jpg');
+   width:100%;
+   background-repeat: no-repeat;
+   font-size: 40px;
+   text-align: center;
+   letter-spacing: 2px;
+   word-spacing: 10px;
+   font-weight: bolder;
+   color:white;
+   margin-top:1%;
+   padding-top:10%;
+   padding-bottom: 10%;
+   text-shadow: 2px 2px 4px #000000;
+}
+.author
+{
+    text-shadow: 2px 2px 4px #ffffff;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-size: xx-large;
+    margin-left: 50%;
+    color:black;
+    padding-top:5%;
+}
+.why
+{
+    background-color: rgb(32, 30, 30);
+}
+h1
+{
+    font-weight: bolder;
+    font-size: 40px;
+    font-family:'Alef';
+    color:red;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+    /* text-decoration: underline; */
+    text-shadow: 2px 2px 4px rgb(68, 67, 67);
+}
+
+.why1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+p
+{
+    font-family: 'Alef';
+    font-size: x-large;
+    /* font-weight: bolder; */
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-align: justify;
+    margin-left: 3%;
+    margin-top:8%;
+    margin-right:3%;
+    color:white;
+}
+#contact
+{
+    background-color: rgb(248, 240, 166);
+}
+.form textarea,.form input
+{
+    font-size: larger;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px;
+    border-color: black;
+    font-family: 'Alef';
+    letter-spacing: 3px;
+    margin-top:2%;
+    background-color: inherit;
+    width:25%;
+    
+}
+textarea
+{
+    resize:none;
+}
+.form textarea:focus,.form input:focus {
+    outline: none !important;
+}
+.form input:active
+{
+    background-color: inherit;
+}
+hr
+{
+    width:25%;
+    align-self: center;
+    background-color: #000000;
+}
+.form .btn
+{
+    background-color: rgb(20, 17, 17) !important;
+    color:white !important;
+    width:20%;
+    height:3%;
+    border:2px solid black;
+}
+.btn:hover
+{
+    background-color: rgba(53, 50, 50, 0.294);
+    color:white;
+    cursor: pointer;
+}
+#i
+{
+    margin-left: 35px;
+    margin-top: 30%;
+    color:black;
+}
+#i:hover
+{
+    color:rgb(70, 68, 68);
+}
+.icon
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 42%;
+    position: relative;
+    padding-bottom: 5%;
+}
