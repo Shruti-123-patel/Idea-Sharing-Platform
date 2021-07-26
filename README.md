@@ -1,0 +1,2 @@
+# Idea-Sharing-Platform
+Hello everyone! Now-a-days one has some ideas ( by some experience or incident ) but can't implement because of some reasons like not enough knowledge in that field or anything else. Another side one who has enough knowledge but haven't good idea to implement the knowledge. So we need some platform by which one can share ideas easily . I have tried to make this kind of platform - "Online Idea Sharing Platform" which is made using  #html ,  #css , #php ,  #mysqldba . Please watch the video and share your valuable feedback.
